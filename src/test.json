@@ -1,0 +1,10 @@
+{
+    "data": {
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6dHJ1ZSwiaWF0IjoxNzMxOTg3MjAyLCJqdGkiOiI4YzAwNWExMS1mNGY4LTRmNDYtYjkxZC1mNjBhOGUzNTEzMmIiLCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoibWF0c3VyaSIsIm5iZiI6MTczMTk4NzIwMiwiY3NyZiI6Ijk3MmU5ODllLWQyYjgtNDBkZC05NjllLTQxNzc0OTk2ZTY0ZCIsImV4cCI6MTczMTk5MDgwMn0.5tOQSPH3oKXtBIDEytlYtbeLVcvxhWDB_omAwDR36IA",
+        "role": "admin",
+        "user_id": 2
+    },
+    "error_code": 200,
+    "message": "User authenticated successfully",
+    "success": true
+}
