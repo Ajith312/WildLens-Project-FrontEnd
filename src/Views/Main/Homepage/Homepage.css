@@ -1,8 +1,9 @@
 
-.nav-menu-content{
-    font-size: 20px;
-    list-style-type: none !important;
-    font-weight: 600;
+.nav-menu-content li a{
+    font-size: 25px !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    color: black !important;
 
 }
 .dropdown-item{
@@ -25,10 +26,6 @@
     color: #63AB45;
   }
 
-/* Footer style*/
-/* .footer-main-container{
-   height: 40vh;
-} */
 
 .brand-color{
   background-color: #63AB45 !important;

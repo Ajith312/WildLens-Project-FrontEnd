@@ -10,7 +10,7 @@ import sliderImageFive from "../../../assets/red-deer.jpg"
 import sliderimageSix from "../../../assets/lion.jpg" // ok
 
 
-function App() {
+function HomeMain() {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -107,4 +107,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomeMain;

@@ -1,8 +1,9 @@
 import React from 'react'
 import HomeNavbar from './HomeNavbar'
-import HomeMain from './HomeMain'
+
 import "./Homepage.css"
 import Footer from './Footer'
+import { Outlet } from 'react-router-dom'
 
 const Homepage = () => {
   return (
@@ -11,7 +12,7 @@ const Homepage = () => {
    <HomeNavbar />
    </div>
    <div className='body-main-container mt-0'>
-  <HomeMain />
+    <Outlet />
    </div>
    <div className='footbar-main-container'>
     <Footer />

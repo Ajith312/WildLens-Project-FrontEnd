@@ -10,6 +10,11 @@ import ForgetPassword from './Views/Common/ForgetPassword'
 import ChangePassword from './Views/Common/ChangePassword'
 import Homepage from './Views/Main/Homepage/Homepage'
 import AdminHomepage from './Views/AdminDashboard/AdminHomepage'
+import About from './Views/Main/About/About'
+import Contact from './Views/Main/Contact/Contact'
+import HomeMain from "./Views/Main/Homepage/HomeMain"
+import Tour from './Views/Main/Tourpage/Tour'
+import Gallery from './Views/Main/Gallery/Gallery'
 
 
 function App() {
@@ -22,11 +27,16 @@ function App() {
       <Route path='/account-activation' element={<AccountActivation />}/>
       <Route path='/forget-password' element={<ForgetPassword />}/>
       <Route path='/change-password' element={<ChangePassword />}/>
-    </Routes>
-    <Routes>
-      <Route path='/home' element={<Homepage />}/>
-    </Routes>
-    <Routes>
+
+      <Route  element={<Homepage />}>
+      <Route path='home' element={<HomeMain />}/>
+      <Route path='about' element={<About />}/>
+      <Route path='contact' element={<Contact />}/>
+      <Route path='tour' element={<Tour />}/>
+      <Route path='gallery' element={<Gallery />}/>
+      </Route>
+
+
       <Route path='/admindashboard/home' element={<AdminHomepage />}/>
     </Routes>
     </BrowserRouter>

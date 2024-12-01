@@ -1,0 +1,30 @@
+
+.coverImage {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+.coverText {
+    position: absolute;
+    color: rgb(21, 69, 102); 
+    z-index: 1;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  
+textarea{
+    resize: none !important;
+}
+.form-label{
+    text-align: start !important;
+}
+.brand-color{
+    background-color: #63AB45 !important;
+    color: #fff !important;
+  }
+
+.aboutBoxImage Img{
+  width: 100%;
+  height: auto;
+}

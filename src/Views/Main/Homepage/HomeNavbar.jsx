@@ -4,6 +4,7 @@ import { MdFacebook } from "react-icons/md";
 import { SiMinutemailer } from "react-icons/si";
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import "./Homepage.css"
+import { NavLink } from "react-router-dom";
 
 
 const HomeNavbar = () => {
@@ -54,19 +55,11 @@ const HomeNavbar = () => {
         <div className="col-lg-7 d-none d-lg-flex flex-column justify-content-center">
         
                 <ul className="nav-menu-content d-flex justify-content-evenly mb-0">
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li className="nav-item dropdown">
-                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">TOUR PACKAGES</a>
-                        <ul className="dropdown-menu bg-success-subtle">
-                            <li><a className="dropdown-item" href="#">INTERNATIONAL</a></li>
-                            <li><a className="dropdown-item" href="#">DOMESTIC</a></li>
-                            <li><a className="dropdown-item" href="#">TREKING</a></li>
-                            <li><a className="dropdown-item" href="#">ADVENTURE</a></li>
-                        </ul>
-            </li>
-            <li>GALLERY</li>
-            <li>CONTACT</li>
+                    <li><NavLink to='/home'>HOME</NavLink></li>
+                    <li><NavLink to='/about'>ABOUT</NavLink></li>
+                    <li><NavLink to='/tour'>TOUR PACKAGES</NavLink></li>
+                    <li><NavLink to='/gallery'>GALLERY</NavLink></li>
+                    <li><NavLink to='/contact'>CONTACT</NavLink></li>
           </ul>
      
         </div>
@@ -84,19 +77,19 @@ const HomeNavbar = () => {
       <Offcanvas.Body>
         <ul className="nav-menu-content d-flex flex-column gap-4">
           <li>
-            <button className="btn btn-success w-100">HOME</button>
+            <button className="btn btn-success w-100"><NavLink to='/home'>HOME</NavLink></button>
           </li>
           <li>
-            <button className="btn btn-success w-100">ABOUT</button>
+            <button className="btn btn-success w-100"><NavLink to='/about'>ABOUT</NavLink></button>
           </li>
           <li>
-            <button className="btn btn-success w-100">TOUR PACKAGES</button>
+            <button className="btn btn-success w-100"><NavLink to='/tour'>TOUR PACKAGES</NavLink></button>
           </li>
           <li>
-            <button className="btn btn-success w-100">GALLERY</button>
+            <button className="btn btn-success w-100"><NavLink to='/gallery'>GALLERY</NavLink></button>
           </li>
           <li>
-            <button className="btn btn-success w-100">CONTACT</button>
+            <button className="btn btn-success w-100"><NavLink to='/gallery'>CONTACT</NavLink></button>
           </li>
         </ul>
       </Offcanvas.Body>

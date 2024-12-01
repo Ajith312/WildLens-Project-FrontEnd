@@ -54,7 +54,7 @@ const Footer = () => {
         
       </div> 
       <div className='footer-copyright-container w-100 border-top border-secondary'>
-        <p className='text-white py-3'>Copyright © 2021 Wild Lens Tours. All rights reserved.</p>
+        <p className='text-white py-3 text-center'>Copyright © 2021 Wild Lens Tours. All rights reserved.</p>
 
       </div>
     </div>
