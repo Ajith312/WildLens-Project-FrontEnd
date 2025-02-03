@@ -3,7 +3,7 @@ import "./Homepage.css"
 
 const Footer = () => {
   return (
-    <div className='footer-main-container vw-100 bg-dark d-flex flex-column justify-content-center align-items-center'>
+    <div className='footer-main-container bg-dark d-flex flex-column justify-content-center align-items-center'>
       <div className="footer-container w-75 h-100 d-flex flex-column flex-md-row ">
         <div className="col-12 col-md-6 h-100 d-flex">
             <div className="col-6 d-flex flex-column justify-content-start align-items-start my-5">

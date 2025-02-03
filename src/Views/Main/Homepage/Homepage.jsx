@@ -7,8 +7,8 @@ import { Outlet } from 'react-router-dom'
 
 const Homepage = () => {
   return (
-   <div className='container-fluid home-main-container d-flex flex-column bg-white vh-100 p-0'> 
-   <div className='navbar-main-container vw-100'>
+   <div className='home-main-container d-flex flex-column bg-white p-0'> 
+   <div className='navbar-main-container'>
    <HomeNavbar />
    </div>
    <div className='body-main-container mt-0'>

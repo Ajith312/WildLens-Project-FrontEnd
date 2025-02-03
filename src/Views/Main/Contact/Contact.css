@@ -28,3 +28,50 @@ textarea{
   width: 100%;
   height: auto;
 }
+.aboutWhyBestContainer{
+  height: 60vh;
+}
+.ravelGuideContainer{
+  height: 60vh;
+
+}
+.travelGuideCard{
+  height: 40vh;
+}
+
+.tour-card-box {
+  position: relative;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+ 
+}
+.tour-card{
+  box-shadow: 0px 0px 20px 3px lightgrey !important;
+  border-radius: 15px !important;
+ 
+}
+.card-box{
+  border: none !important;
+  box-shadow: 0px 0px 20px 5px lightblue !important;
+}
+
+
+.tour-card-box:hover {
+  transform: translateY(-12px);
+}
+.filterContainer {
+  height: 10vh;
+}
+.accordion, .accordion-item,.accordion-body{
+  z-index: 2800;
+}
+
+.card{
+  border: none !important;
+ box-shadow: 0px 0px 10px 5px rgb(228, 229, 230);
+ 
+}
+.travelGuideImg img{
+  object-fit:contain;
+  object-position: center;
+  background-repeat: no-repeat;
+}

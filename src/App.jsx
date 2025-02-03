@@ -15,6 +15,7 @@ import Contact from './Views/Main/Contact/Contact'
 import HomeMain from "./Views/Main/Homepage/HomeMain"
 import Tour from './Views/Main/Tourpage/Tour'
 import Gallery from './Views/Main/Gallery/Gallery'
+import NotFound from './Views/Common/NotFound'
 
 
 function App() {
@@ -34,10 +35,12 @@ function App() {
       <Route path='contact' element={<Contact />}/>
       <Route path='tour' element={<Tour />}/>
       <Route path='gallery' element={<Gallery />}/>
+      <Route path='*' element={<NotFound />} />
       </Route>
 
 
       <Route path='/admindashboard/home' element={<AdminHomepage />}/>
+      <Route path='*' element={<NotFound />} />
     </Routes>
     </BrowserRouter>
     <ToastContainer />

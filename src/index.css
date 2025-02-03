@@ -15,3 +15,18 @@
 .Toastify__toast-container {
   z-index: 9999 !important; 
 }
+
+/* Gallery */
+
+.GalleryCard{
+  height: 50vh !important;
+ 
+}
+.GalleryCard img{
+  object-fit: cover !important;
+}
+.galleryText{
+  color: #087e2c;
+  font-size: 45px;
+  
+}

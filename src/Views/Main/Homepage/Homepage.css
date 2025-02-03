@@ -39,3 +39,21 @@ li{
   border:none !important;
   text-align: start !important;
 }
+.navMenuItem a:hover{
+  color: rgba(6, 193, 102, 0.831) !important;
+  text-decoration: underline !important;
+  
+
+}
+.navbar-menu-container {
+  position: sticky;
+  top: 0; 
+  width: 100%;
+  z-index: 1000; 
+}
+.homepage-navbar {
+  position: relative; 
+  overflow: visible;
+}
+
+

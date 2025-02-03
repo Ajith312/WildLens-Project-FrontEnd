@@ -11,3 +11,12 @@
 .auth-nav-text a{
     text-decoration: none !important;
 }
+.notFoundContainer{
+    height: 70vh;
+}
+
+.notFoundImage{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
